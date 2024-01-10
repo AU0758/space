@@ -16,7 +16,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav className='top-0'>
+          <ul>
+            <li>Elevador</li>
+            <li>Cocpit</li>
+            <li>Conecção</li>
+          </ul>
+        </nav>
+        {children}
+        <nav className='bottom-0'>
+          <ul>
+            <li>Hub</li>
+            <li>Reator</li>
+            <li>Ancora</li>
+          </ul>
+        </nav>
+      </body>
     </html>
   )
 }
