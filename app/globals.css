@@ -119,6 +119,15 @@
     font-size: 50px;
   }
 
+  .signatureMask {
+    -webkit-mask-image: url(../public/signature.svg);
+    mask-image: url(../public/signature.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain; /* Adjust based on your needs */
+    mask-size: contain; /* Adjust based on your needs */
+  }
+
   @media (min-width: 481px) {
     li {
         font-size: 25px;
